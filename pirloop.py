@@ -9,6 +9,11 @@ import random
 # setup PIR array
 PIR_ARRAY = [[0 for x in range(5)] for x in range(8)]
 #PIR_ARRAY = [[]]
+# PIR[][0] = Label
+# PIR[][1] = GPIO value
+# PIR[][2] = active (1) or not (1) - in the following only "Front Door" and "Hall motion" are active
+# PIR[][3] = whether a Reed (Door) switch or PIR (motion) detector
+# PIR[][4] = set the initial value of the GPIO for each switch - and subsequently the current state as it changes.
 PIR_ARRAY[0][0] = "Front Door"
 PIR_ARRAY[0][1] = 17
 PIR_ARRAY[0][2] = 1
