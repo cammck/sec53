@@ -19,6 +19,9 @@ _other notes_
 * ALERT mode can be configured to send message to multiple mobile numbers
 
 ## Plans for the Future / TODO
+* Add doc and or diagrams to GitHub to show the wiring setup (based on http://projects.privateeyepi.com/home/home-alarm-system-project/installation/alarm-electronics)
+* Add docs an/or scripts used to setup Raspi
+* Add ability to use push notifications instead of SMS
 * Add temp sensors (1/2 done already - but only works with 1 temp sensor and doesn't show data/events)
 * jazz up the web interface to make more family friendly (maybe iOS APP - sorry only apple users in my home!)
 * get better insights from the event data (ties into AWS ML below)
