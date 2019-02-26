@@ -45,5 +45,5 @@ _other notes_
 * sec53.ini	- initialisation file used to store key parameters - such as DB config and notification details
 * sec53.py	 - main python script to handle event logging and notifications
 
-_What about the missing files? ALERT script. Seems files need updating with current version! **TODO FEB 2019** _
+_What about the missing files? ALERT script. Seems files need updating with current version! **TODO FEB 2019**_
 
