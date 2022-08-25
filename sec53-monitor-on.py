@@ -2,17 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import MySQLdb as mdb
-from ConfigParser import SafeConfigParser
 
-parser = SafeConfigParser()
-parser.read('sec53.ini')
-
-server = parser.get('Database', 'server_name')
-db = parser.get('Database', 'database')
-username = parser.get('Database', 'user_name')
-password = parser.get('Database', 'password')
-con = mdb.connect(server, username, password, db);
-# con = mdb.connect('localhost', 'secuser', 'secuser53', 'sec53');
+con = mdb.connect('localhost', 'secuser', 'secuser53', 'sec53');
 
 with con:    
 	cur = con.cursor()
