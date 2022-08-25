@@ -31,3 +31,19 @@ _other notes_
 * integrate with AWS machine learning to try to figure out normal events versus an actual security event
 * graphing events for better visualisation???
 * ...
+
+## files:
+* LICENSE	- standard license file
+* README.md	- this file
+* launcher.sh	 - bash script for launching Sec53 using cron - need to add cron usage as comment
+* pirloop.py	- simple sensor setup and loop script to test sensor connections, etc
+* pirloop 2.py	- not sure how this is different to the file above - probably should consolidate and remove this one
+* sec53-db-setup.py	- script to setup MySql CONTROL table - needs update to use INI file instead of hardcoded values
+* sec53-db-log-setup.py - script to setup MySql EVENTS table - needs update to use INI file instead of hardcoded values
+* sec53-monitor-off.py	- script to turn monitoring OFF from the command line  - needs update to use INI file instead of hardcoded values
+* sec53-monitor-on.py	- script to turn monitoring ON from the command line  - needs update to use INI file instead of hardcoded values
+* sec53.ini	- initialisation file used to store key parameters - such as DB config and notification details
+* sec53.py	 - main python script to handle event logging and notifications
+
+_What about the missing files? ALERT script. Seems files need updating with current version! **TODO FEB 2019**_
+

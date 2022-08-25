@@ -1,5 +1,7 @@
 #!/bin/sh
-# launcher.sh
+# launcher.sh - this is used by cron to restart the sec53 app after rebooting
+# crontab usage : TBA
+#
 # navigate to home directory, then to this directory, then execute python script, then back home
 
 cd /

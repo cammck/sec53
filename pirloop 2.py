@@ -1,10 +1,13 @@
 #!/usr/bin/python
+
+# Simple Python script that was initially used for testing sensor connectivity and starting out with Sec53
+# useful, but not used as part of the main application - could be removed or moved into subfolder for utils
+
 import RPi.GPIO as GPIO
 import time
 import MySQLdb as mdb
 import sys
 import random
-
 
 # setup PIR array
 PIR_ARRAY = [[0 for x in range(5)] for x in range(8)]
